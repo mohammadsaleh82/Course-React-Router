@@ -1,0 +1,122 @@
+body{
+    background: url(./../pic/bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.main{
+    background: rgba(21, 98, 105, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+    border: 1px solid rgba(21, 98, 105, 0.23);
+    height: 100vh;
+
+}
+.content{
+   
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    
+}
+.input-search{
+    
+    border-radius: 5rem!important;
+   
+}
+
+.btn-new-user{
+    background-color: #24db0c;
+    color:azure;
+}
+table{
+
+    direction: rtl;
+   
+    color: aliceblue;
+    background: rgba(26, 25, 25, 0.58);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+  
+}
+table>tr>th,td{
+    font-size: 16px;
+    color: aliceblue;
+}
+.td-i{
+    background-color: transparent!important;
+    cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+    table>tr>th,td{
+        font-size: 10px;
+    }
+    
+    .btn-new-user{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:768px) {
+    .menu-sidebar{
+        display: none;
+        }
+
+}
+
+.menu-sidebar{
+
+    background: rgba(26, 25, 25, 0.58);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.menu-section>li{
+  
+   margin-left: 0;
+  list-style-type: none;
+  text-shadow: 1px 1px 8px gold;
+  border: 3px inset #f84;
+  border-radius: 1rem;
+  margin-top: 0.2rem;
+  transition: all 0.5s;
+}
+
+.menu-section>li>a{
+    color: #f9fafb;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    transition: all 0.5s;
+}
+
+.li-link:hover{
+    margin-top:0.4rem;
+    margin-right:0.4rem;
+    padding: 2px;
+    box-shadow: 1px 1px 8px rgb(235, 203, 21);
+    background-color: rgb(235, 203, 21);
+}
+
+.menu-section>li>a:hover{
+    color: #000000
+}
+
+.menu-section>li>img{
+    
+    max-width: 100px;
+    max-height: 150px;
+}
+.li-img{
+border: none!important;
+margin-top: 1rem!important;
+}
